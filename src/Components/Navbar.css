@@ -1,0 +1,40 @@
+.logo{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'El Messiri'
+}
+span{
+    color: #c60021;
+}
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f6f6f8;
+    position: fixed;
+    
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    
+}
+.under:hover{
+    color: #c60021;
+}
+
+.under{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-family: 'lato';
+}
+.active{
+    color: #c60021;
+    
+}
+
