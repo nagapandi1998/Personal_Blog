@@ -26,21 +26,26 @@ h1 {
 }
 
 .homeContainer {
+  padding: 10px 10%;
   overflow-y: hidden;
 }
 
 .header-text  {
-  margin-top: 20%;  
+  margin-top: 6%;  
   font-size: 20px;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
 }
 
 .header-text img {
   width: 50%;
-  /* height: 90vh; */
+  height: auto;
   position: relative;
-  bottom: 300px;
-  left: 600px;
+  /* bottom: 300px; */
+  left: 10vw;
   z-index: -1;
+  flex: 1;
 }
 
 
