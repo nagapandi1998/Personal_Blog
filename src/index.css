@@ -28,6 +28,7 @@ h1 {
 .homeContainer {
   padding: 10px 10%;
   overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .header-text  {
@@ -37,7 +38,9 @@ h1 {
   display: flex;
   align-items: center;
 }
-
+.header-text div{
+  flex: 1.5;
+}
 .header-text img {
   width: 50%;
   height: auto;
@@ -186,6 +189,7 @@ font-size: 50px;
   font-family: 'Lato';
   position: relative;
   top: -4px;
+  font-size: 25px;
 }
 
 .contacts p  {

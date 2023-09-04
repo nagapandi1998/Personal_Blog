@@ -14,7 +14,7 @@ const Contact = () => {
                 <div class="contacts">
                     <h1 data-aos="flip-up" data-aos-duration="2000">Contact Me</h1>
                     <p><FaEnvelope/> <a href="mailto:nagapandieee1998@gmail.com">nagapandieee1998@gmail.com</a></p>
-                    <p><FaPhoneSquareAlt /> <a href="tell:6374601412">+91 6374601412</a></p>
+                    <p><FaPhoneSquareAlt /> <a href="tel:+91-6374601412">+91 6374601412</a></p>
                     <div class="social-icons">
                         <a href="https://www.facebook.com/nagapandi.nagapandi.7547/" target='blank'><FaFacebook /></a>
                         <a href="https://twitter.com/nagapandi25" target='blank'><FaTwitterSquare /></a>
