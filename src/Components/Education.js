@@ -30,7 +30,7 @@ const Education = () => {
                   <p><FaBookOpen className='eduicon'/>Secondary School Leaving Certificate - 92.2 %</p>
                   <p><FaSchool className='eduicon'/>Sri Kandasamy Vidhyalaya HSS</p>
                   <p><FaMapMarkerAlt className='eduicon'/>Madurai</p>
-                </div><br />
+                </div><br/>
                 <h1 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">Skills</h1>
                     <ul data-aos="zoom-in-up" data-aos-duration="3000" className="skills_list">
                         <li><DiHtml5 className='html'/></li>
