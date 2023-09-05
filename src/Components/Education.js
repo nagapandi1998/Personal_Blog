@@ -39,7 +39,6 @@ const Education = () => {
                         <li><DiReact  className='reactjs'/></li>
                     </ul>
           </div>
-                
         </div>          
       </div>          
     </div>          

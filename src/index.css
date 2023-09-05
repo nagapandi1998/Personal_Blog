@@ -24,33 +24,31 @@ h1 {
 .container {
   padding: 50px 10%;
 }
-
-.homeContainer {
-  padding: 10px 10%;
-  overflow-y: hidden;
-  overflow-x: hidden;
-}
-
-.header-text  {
-  margin-top: 6%;  
-  font-size: 20px;
-  flex-direction: row;
+.row {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
 }
-.header-text div{
-  flex: 1.5;
-}
-.header-text img {
-  width: 50%;
-  height: auto;
+.homes{
+  padding: 80px 0;
   position: relative;
-  /* bottom: 300px; */
-  left: 10vw;
+  bottom: 20px;
+  height: 100vh;
   z-index: -1;
-  flex: 1;
+  overflow-y: hidden;
 }
 
+.home-col-1{
+  flex-basis: 45%;
+  position: relative;
+  top: 160px;
+  font-size: 20px;
+}
+
+.home-col-2{
+  flex-basis: 45%;
+  position: relative;
+  bottom: 50px;
+}
 
 .about {
   padding: 80px 0;
@@ -62,11 +60,6 @@ h1 {
   overflow-y: hidden;
 }
 
-.row {
-  display: flex;
-  justify-content: space-between;
-}
-
 .about-col-1 {
   flex-basis: 35%;
 }
@@ -74,7 +67,6 @@ h1 {
 .about-col-1 img {
   width: 100%;
   border-radius: 15px;
-
 }
 
 .about-col-2 {
