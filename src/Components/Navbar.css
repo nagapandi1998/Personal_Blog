@@ -1,6 +1,18 @@
+:root {
+    --primary-color:#f6f6f8;
+    --secondary-color:black;
+    --body-color:#e3e3e3;
+    --icon-color:#747272;
+  }
+  .switch{
+    --primary-color:black;
+    --secondary-color:#f6f6f8;
+    --body-color:#757272;
+    --icon-color:#f6f6f8;
+  }
 .logo{
     text-decoration: none;
-    color: black;
+    color: var(--secondary-color);
     font-size: 25px;
     font-weight: bold;
     font-family: 'El Messiri';
@@ -8,7 +20,7 @@
     position: relative;
     top: 5px;
 }
-span{
+.pinkname{
     color: #c60021;
 }
 .navbar {
@@ -16,10 +28,11 @@ span{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #f6f6f8;
+    background-color: var(--primary-color);
     position: fixed;
     padding-left: 50px;
     padding-right: 30px;
+    z-index: 9999;
     
 }
 nav ul li {
@@ -35,11 +48,40 @@ nav ul li {
 .under{
     text-decoration: none;
     font-size: 18px;
-    color: black;
+    color: var(--secondary-color);
     font-family: 'lato';
 }
+/* .links{
+    flex: 1;
+} */
 .active{
     color: #c60021;
-    
 }
 
+.toggleswitch {
+    position: relative;
+}
+
+.toggleswitch i{
+    position: absolute;
+    cursor: pointer;
+    font-size: 20px;
+    left: 100%;
+    bottom: 7px;
+   
+}
+.famoon{
+    font-size: 12px;
+}
+.fasun{
+    display: none;
+    color: #fff;
+}
+
+.switch .fasun{
+    display: block;
+}
+
+.switch .famoon{
+    display: none;
+}
