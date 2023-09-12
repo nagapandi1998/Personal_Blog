@@ -38,17 +38,29 @@ const Education = () => {
             </div><br />
             <h1 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" className='skillsheader'>Skills</h1>
             <ul data-aos="zoom-out" data-aos-duration="3000" data-aos-offset='10' className="skills_list">
-              <li>
-                <Tooltip title="Delete" arrow>
-                  <DiHtml5 className='html' />
-                </Tooltip>
-              </li>
-
-              <li><DiCss3 className='css' /></li>
-              <li><DiJsBadge className='javascript' /></li>
-              <li><DiReact className='reactjs' /></li>
+              <div>
+                <li>
+                  <Tooltip title="HTML5" arrow>
+                    <p><DiHtml5 className='html' /></p>
+                  </Tooltip>
+                </li>
+                <li>
+                  <Tooltip title="CSS3" arrow>
+                    <p><DiCss3 className='css' /></p>
+                  </Tooltip>
+                </li>
+                <li>
+                  <Tooltip title="Javascript" arrow>
+                    <p><DiJsBadge className='javascript' /></p>
+                  </Tooltip>
+                </li>
+                <li>
+                  <Tooltip title="Reactjs" arrow>
+                    <p><DiReact className='reactjs' /></p>
+                  </Tooltip>
+                </li>
+              </div>
             </ul>
-
           </div>
         </div>
       </div>

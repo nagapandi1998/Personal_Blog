@@ -1,59 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&family=Lato:wght@100;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box
-  
 }
 
 body {
-  background:var(--body-color);
+  background: var(--body-color);
   color: var(--secondary-color);
   font-family: 'Lato';
- 
+
 }
-html{
+
+html {
   scroll-behavior: smooth;
 }
-.pinkname{
+
+.pinkname {
   color: #c60021;
 }
 
 h1 {
   font-family: 'El Messiri';
 }
-.under{
+
+.under {
   font-family: 'Lato';
 }
+
 .container {
   padding: 40px 10%;
 }
+
 .row {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.homescontainer{
+
+.homescontainer {
   padding: 40px 10%;
-  
+
 }
-.homes{
+
+.homes {
   height: 100vh;
 }
 
-.home-col-1{
+.home-col-1 {
   flex-basis: 65%;
   position: relative;
   top: 100px;
   font-size: 20px;
 }
 
-.home-col-2{
+.home-col-2 {
   flex-basis: 35%;
 }
-.home-col-2 img{
+
+.home-col-2 img {
   position: relative;
   top: 50px;
 
@@ -84,85 +91,101 @@ h1 {
   height: 72vh;
 
 }
+
 .educationcontents {
   color: var(--secondary-color);
   line-height: 25px;
 }
-.eduicon{
-  color:var(--icon-color);
+
+.eduicon {
+  color: var(--icon-color);
   position: relative;
   top: 1px;
   margin-right: 5px;
 }
-.skillsheader{
+
+.skillsheader {
   position: relative;
   bottom: 10px;
   color: #c60021;
 }
+
 .skills_list {
   color: black;
   line-height: 25px;
   position: relative;
-  
+
 }
-.skills_list li{
+
+.skills_list li {
   list-style-type: none;
   margin-top: 30px;
   margin-right: 30px;
   display: inline-block;
 }
-.skills_list  {
+
+.skills_list {
   margin-top: -30px;
 }
-.html{
+
+.html {
   color: #f06529;
   font-size: 50px;
   cursor: pointer;
 }
-.css{
-color: #2965f1;
-font-size: 50px;
-cursor: pointer;
+
+.css {
+  color: #2965f1;
+  font-size: 50px;
+  cursor: pointer;
 }
-.javascript{
+
+.javascript {
   color: #f0db4f;
   font-size: 40px;
   position: relative;
   top: -5px;
   cursor: pointer;
 }
-.reactjs{
+
+.reactjs {
   color: #0ac3f1;
   font-size: 50px;
   cursor: pointer;
 }
 
 .experiences {
-  padding: 40px 1%0;
+  padding: 40px 10%;
   position: relative;
   bottom: 20px;
   height: 100vh;
- 
+
 }
 
 .experience-col-3 {
-  flex-basis: 50%;
+  flex-basis: 45%;
 }
 
 .experience-col-4 {
   flex-basis: 45%;
+  position: relative;
+  top: 40px;
+  left: 50px;
 }
-.expicons{
-  color:var(--icon-color);
+
+.expicons {
+  color: var(--icon-color);
   position: relative;
   top: 1px;
   margin-right: 5px;
 }
+
 .achivement-list {
-  margin:5px 0;
+  margin: 5px 0;
   list-style: none;
 }
-.achivement-list  {
+
+.achivement-list {
   color: var(--secondary-color);
   position: relative;
   font-family: 'Lato';
@@ -174,10 +197,12 @@ cursor: pointer;
   border-radius: 15px;
 
 }
+
 .contact {
   height: 100vh;
 }
-.contacts{
+
+.contacts {
   margin-top: 70px;
 }
 
@@ -199,11 +224,11 @@ cursor: pointer;
   font-size: 25px;
 }
 
-.contacts p  {
+.contacts p {
   color: #c60021;
   margin-right: 15px;
   font-size: 20px;
-  
+
 }
 
 .social-icons {
@@ -212,8 +237,8 @@ cursor: pointer;
   display: inline-block;
 }
 
-.social-icons a  {
-  color:var(--icon-color);
+.social-icons a {
+  color: var(--icon-color);
   margin-right: 10px;
 }
 
@@ -236,82 +261,18 @@ cursor: pointer;
   padding: 10px 10px;
   border-radius: 10px;
   color: #e3e3e3;
-  background: #c60021;  
-  word-spacing: 5px;  
+  background: #c60021;
+  word-spacing: 5px;
   font-family: 'Lato';
 }
 
-.cvdownloadicon{
+.cvdownloadicon {
   font-size: 25px;
   position: relative;
   top: 5px;
   margin-right: 5px;
 }
+
 .cvdownloadicon:hover {
   transform: translateY(-5px);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .tooltip {
-  position: relative;
-  display: inline-block;
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 100px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  top: 100%;
-  left: 73%;
-  margin-left: -60px;
-}
-
-.tooltip .tooltiptext::after {
-  content: "";
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: transparent transparent black transparent;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-} */
