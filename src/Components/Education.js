@@ -17,7 +17,7 @@ const Education = () => {
     <div className="about">
       <div className="container">
         <div className="row">
-          <div data-aos="zoom-in" data-aos-duration="3000" data-aos-offset="400" className="about-col-1">
+          <div data-aos="zoom-in" data-aos-duration="3000" className="about-col-1">
             <img class="education-image" src={require('./Assets/education.jpg')} alt="" />
           </div>
           <div className="about-col-2">
@@ -37,11 +37,10 @@ const Education = () => {
               <p className='educationcontents'><FaMapMarkerAlt className='eduicon' />Madurai</p>
             </div><br />
             <h1 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" className='skillsheader'>Skills</h1>
-            <ul data-aos="zoom-in-up" data-aos-duration="3000" data-aos-offset='100' className="skills_list">
+            <ul data-aos="zoom-out" data-aos-duration="3000" data-aos-offset='10' className="skills_list">
               <li>
                 <Tooltip title="Delete" arrow>
                   <DiHtml5 className='html' />
-                  {/* <p>sdgf usdgf </p> */}
                 </Tooltip>
               </li>
 
