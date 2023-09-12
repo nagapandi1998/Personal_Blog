@@ -41,29 +41,19 @@ h1 {
 }
 
 .homescontainer {
-  padding: 40px 10%;
+  padding: 90px 10%;
+  align-items: center;
 
-}
-
-.homes {
-  height: 100vh;
 }
 
 .home-col-1 {
   flex-basis: 65%;
-  position: relative;
-  top: 100px;
+  align-items: center;
   font-size: 20px;
 }
 
 .home-col-2 {
   flex-basis: 35%;
-}
-
-.home-col-2 img {
-  position: relative;
-  top: 50px;
-
 }
 
 .about {
