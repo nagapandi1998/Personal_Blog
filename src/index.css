@@ -11,7 +11,6 @@ body {
   background: var(--body-color);
   color: var(--secondary-color);
   font-family: 'Lato';
-
 }
 
 html {
@@ -31,7 +30,7 @@ h1 {
 }
 
 .container {
-  padding: 40px 10%;
+  padding: 72px 10%;
 }
 
 .row {
@@ -43,13 +42,15 @@ h1 {
 .homescontainer {
   padding: 90px 10%;
   align-items: center;
-
 }
 
 .home-col-1 {
   flex-basis: 65%;
   align-items: center;
-  font-size: 20px;
+  
+}
+.homeheader{
+  font-size: 40px;
 }
 
 .home-col-2 {
@@ -57,7 +58,6 @@ h1 {
 }
 
 .about {
-  padding: 40px 10%;
   position: relative;
   bottom: 20px;
   height: 100vh;
@@ -75,6 +75,8 @@ h1 {
 .about-col-2 {
   flex-basis: 45%;
   color: var(--secondary-color);
+  position: relative;
+  top: 20px;
 }
 
 .education-image {
@@ -115,7 +117,7 @@ h1 {
 }
 
 .skills_list {
-  margin-top: -30px;
+  margin-top: -40px;
 }
 
 .html {
@@ -145,9 +147,8 @@ h1 {
 }
 
 .experiences {
-  padding: 40px 10%;
   position: relative;
-  bottom: 20px;
+  bottom: 40px;
   height: 100vh;
 
 }
@@ -159,7 +160,7 @@ h1 {
 .experience-col-4 {
   flex-basis: 45%;
   position: relative;
-  top: 40px;
+  top: 50px;
   left: 50px;
 }
 
@@ -189,17 +190,27 @@ h1 {
 }
 
 .contact {
-  height: 100vh;
+  padding: 40px 5%;
+  position: relative;
+  bottom: 20px;
+  height: 100vh; 
 }
 
-.contacts {
-  margin-top: 70px;
+.contact-col-1{
+  flex-basis: 35%;
 }
-
-.contacts h1 {
-  margin-top: 30px;
+.contact-col-2{
+  flex-basis: 45%;
 }
-
+.contact-col-1 img {
+  width: 100%;
+  border-radius: 15px;
+  height: 72vh;
+}
+.contacts{
+  position: relative;
+  bottom: 100px;
+}
 .contacts p {
   margin-top: 10px;
 }
@@ -238,10 +249,7 @@ h1 {
 }
 
 .cv {
-  margin-top: 50vh;
-  float: right;
-  position: relative;
-  bottom: 50px;
+  margin-top: 50px;
 }
 
 .cv a {
