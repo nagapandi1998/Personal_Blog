@@ -9,8 +9,8 @@ const Home = () => {
           <div className='home-col-1'>
             <h1 className='homeheader' data-aos="fade-right" data-aos-duration="1800">Hi, I'm Nagapandi <span className='pinkname'>Gandhi</span></h1>
             <h1 className='homeheader' data-aos="fade-left" data-aos-duration="2000">ReactJS Developer</h1>
-            <div>
-              <h1 className='pinkname'>About</h1>
+            <div><br/><br />
+              <h1 className='pinkname'>About Me</h1>
               <p>To find a suitable position to challenge my web development skills to create scalable
                 web applications for diverse businesses. Trained in ReactJS, HTML, JS and basic web
                 development course.</p>

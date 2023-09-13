@@ -14,7 +14,7 @@ const Contact = () => {
         <div id="contact" class="contact">
             <div class="container">
                 <div className='row'>
-                    <div className='contactimage contact-col-1'>
+                    <div data-aos="zoom-in-down" data-aos-duration="3000" data-aos-offset="300" className='contactimage contact-col-1'>
                         <img src={require("./Assets/contact.jpg")} alt="" />
                     </div>
                     <div class="contacts contact-col-2">

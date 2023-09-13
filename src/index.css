@@ -47,6 +47,8 @@ h1 {
 .home-col-1 {
   flex-basis: 65%;
   align-items: center;
+  position: relative;
+  top: 70px;
   
 }
 .homeheader{
