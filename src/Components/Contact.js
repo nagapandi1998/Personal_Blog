@@ -29,7 +29,7 @@ const Contact = () => {
                             <a href="https://github.com/nagapandi1998" target='blank'><BiLogoGithub /></a>
                         </div>
                         <div data-aos="zoom-in" data-aos-offset="50" data-aos-duration="1000" className="cv">
-                            <Tooltip title="Click to Download" arrow  placement="top">
+                            <Tooltip title="Click to Download" arrow  placement="bottom">
                                 <a href="Nagapandi Resume.pdf" download="Nagapandi Resume.pdf">
                                     <FaCloudDownloadAlt className='cvdownloadicon' />Download CV</a>
                             </Tooltip>
